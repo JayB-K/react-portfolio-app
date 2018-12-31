@@ -1,3 +1,6 @@
+# react-portfolio-app
+Sample project for creating a web portfolio using create-react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
