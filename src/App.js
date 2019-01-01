@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { Layout, Navigation, Header, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
+import Router from './components/router';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
           </Drawer>
           <Content>
             <div className="page-content" />
-            <Main />
+            <Router />
           </Content>
         </Layout>
       </div>;
