@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import "../css/projects.css";
 
 class Projects extends Component {
     constructor(props) {
@@ -10,54 +11,54 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return ( 
-                <div className="projects-grid">
+                <div className="grid">
                     {/* Project #1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'}}>Project #1</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-react">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'}}>Project #2</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-react">Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover'}}>Project #3</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-react">Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
@@ -65,54 +66,54 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div className="projects-grid">
+                <div className="grid">
                     {/* Project #1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlrdNynJcgIKJ98f5ATtgTNjrO7vZ6JGBg80tuuOFFQtanT66Ow) center / cover'}}>Project #1</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-angular">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlrdNynJcgIKJ98f5ATtgTNjrO7vZ6JGBg80tuuOFFQtanT66Ow) center / cover'}}>Project #2</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-angular">Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlrdNynJcgIKJ98f5ATtgTNjrO7vZ6JGBg80tuuOFFQtanT66Ow) center / cover'}}>Project #3</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-angular">Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
@@ -120,54 +121,54 @@ class Projects extends Component {
             )
         } else {
             return (
-                <div className="projects-grid">
+                <div className="grid">
                     {/* Project #1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.technotification.com/wp-content/uploads/2018/06/go-programming-language-840x500.png) center / cover'}}>Project #1</CardTitle>
+                    <Card className="card" shadow={5}>
+                        <CardTitle className="card-title-golang">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.technotification.com/wp-content/uploads/2018/06/go-programming-language-840x500.png) center / cover'}}>Project #2</CardTitle>
+                    <Card className="card" shadow={5}>
+                        < CardTitle className = "card-title-golang" > Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.technotification.com/wp-content/uploads/2018/06/go-programming-language-840x500.png) center / cover'}}>Project #3</CardTitle>
+                    <Card className="card" shadow={5}>
+                        < CardTitle className="card-actions" className = "card-title-golang"> Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions border>
+                        <CardActions className="card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
+                        <CardMenu className="card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
