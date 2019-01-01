@@ -11,54 +11,54 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return ( 
-                <div className="grid">
+                <div className="projects-grid">
                     {/* Project #1 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-react">Project #1</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-react">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-react">Project #2</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-react">Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-react">Project #3</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-react">Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
@@ -66,54 +66,54 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div className="grid">
+                <div className="projects-grid">
                     {/* Project #1 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-angular">Project #1</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-angular">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-angular">Project #2</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-angular">Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-angular">Project #3</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-angular">Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
@@ -121,54 +121,54 @@ class Projects extends Component {
             )
         } else {
             return (
-                <div className="grid">
+                <div className="projects-grid">
                     {/* Project #1 */}
-                    <Card className="card" shadow={5}>
-                        <CardTitle className="card-title-golang">Project #1</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-golang">Project #1</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #2 */}
-                    <Card className="card" shadow={5}>
-                        < CardTitle className = "card-title-golang" > Project #2</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        < CardTitle className="projects-card-title-golang" > Project #2</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 
 
                     {/* Project #3 */}
-                    <Card className="card" shadow={5}>
-                        < CardTitle className="card-actions" className = "card-title-golang"> Project #3</CardTitle>
+                    <Card className="projects-card" shadow={5}>
+                        <CardTitle className="projects-card-title-golang"> Project #3</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
                         </CardText>
-                        <CardActions className="card-actions" border>
+                        <CardActions className="projects-card-actions" border>
                             <Button colored>GitHub</Button>
                             <Button colored>Codepen</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
-                        <CardMenu className="card-menu">
+                        <CardMenu className="projects-card-menu">
                             <IconButton name="share" />
                         </CardMenu>
                     </Card> 

@@ -1,50 +1,50 @@
-.grid {
+.projects-grid {
     margin-top: 50px;
     display: flex;
 }
 
-.card {
+.projects-card {
     min-width: 450;
     margin: auto;
 }
 
-.card-actions {
+.projects-card-actions {
     display: flex; 
     justify-content: center;
 }
 
-.card-menu {
+.projects-card-menu {
     color: #fff;    
 }
 
-.card-title-react {
+.projects-card-title-react {
     height: 176px;
     background: url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover;
 }
 
-.card-title-react h2 {
+.projects-card-title-react h2 {
     color: #fff;
     font-size: 1.2em;
     font-weight: initial;
 }
 
-.card-title-angular {
+.projects-card-title-angular {
     height: 176px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlrdNynJcgIKJ98f5ATtgTNjrO7vZ6JGBg80tuuOFFQtanT66Ow) center / cover;
 }
 
-.card-title-angular h2 {
+.projects-card-title-angular h2 {
     color: #fff;
     font-size: 1.2em;
     font-weight: initial;
 }
 
-.card-title-golang {
+.projects-card-title-golang {
     height: 176px;
     background: url(https://www.technotification.com/wp-content/uploads/2018/06/go-programming-language-840x500.png) center / cover;
 }
 
-.card-title-golang h2 {
+.projects-card-title-golang h2 {
     color: #fff;
     font-size: 1.2em;
     font-weight: initial;

@@ -1,4 +1,4 @@
-.body {
+.contact-body {
     margin: auto;
     background: grey;
     position: fixed;
@@ -8,7 +8,7 @@
     padding-top: 2em;
 }
 
-.grid {
+.contact-grid {
     text-align: center;
     justify-content: center;
     width: 80%;
@@ -19,11 +19,11 @@
     margin-bottom: 20px;
 }
 
-.grid h2 {
+.contact-grid h2 {
     font-family: 'Anton', sans-serif;
 }
 
-.grid p {
+.contact-grid p {
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     width: 75%;
