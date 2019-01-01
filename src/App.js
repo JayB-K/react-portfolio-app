@@ -9,19 +9,19 @@ class App extends Component {
   render() {
     return <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="My Portfolio" scroll>
-            <Navigation>
+          <Header className="header-color" title={<a className="header-my-portfolio" href="/">My Porfolio</a>} scroll>
+            <Navigation className="nav-link">
               <Link to="/aboutme">About Me</Link>
-              <Link to="/contact">Contact</Link>
               <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
               <Link to="/resume">Resume</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
-            <Navigation>
+          <Drawer title="My Portfolio">
+            <Navigation className="nav-link">
               <Link to="/aboutme">About Me</Link>
-              <Link to="/contact">Contact</Link>
               <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
               <Link to="/resume">Resume</Link>
             </Navigation>
           </Drawer>

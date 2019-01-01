@@ -11,7 +11,7 @@ class Landing extends Component {
                 <div className="banner-text">
                     <h1>Full Stack Devleloper</h1>
                     <hr/>
-                    <p>HTML | CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongDB</p>
+                    <p>Blockchain | Spring Boot | NodeJS Express | React | Android </p>
                     <div className="social-links">
                         {/* LinkedIn */}
                         <a href="http://google.com" target="_blank" rel="noopener noreferrer">
