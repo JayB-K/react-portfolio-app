@@ -9,7 +9,6 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                 <Cell col={12}>
                     <img className="avatar-img" src="https://pickaface.net/gallery/avatar/20141025_004121_918_Developer.png" alt="avatar"/>
-
                     <div className="banner-text">
                         <h1>Full Stack Devleloper</h1>
                         <hr/>
